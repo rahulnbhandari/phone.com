@@ -137,8 +137,8 @@ class EquilateralTraingle extends Triangle {
 			throw new Exception("Inavlid param for sides of the triangle");
 		}
 		$this->a = $a;
-		$this->b = $b;
-		$this->c = $c;
+		$this->b = $a;
+		$this->c = $a;
 	}
 }
 
