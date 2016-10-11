@@ -56,6 +56,8 @@
  // base class vo (valu object)
  class CronClientVO extends VO {
  	//mapper for table columns to entry 
+	 //structure id,status,statusMessage,name,params
+	 
  }
 
  class CronClientAssoc extends CronClientAssocVO {
@@ -69,9 +71,11 @@
  }
 
  //Data object wrapper
- // base class vo (valu object)
+ // base class vo (value object)
+
  class CronClientAssociationVO extends VO {
  	//mapper for table columns to entry 
+       //structure id,jobId,serverId (job id is unique entry)
  }
 
 
