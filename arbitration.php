@@ -14,6 +14,7 @@
  //get job
  //config for cron server
  const CRON_SERVER_ID = 1;
+ const TOTAL_SERVERS = 3;
  $cronClient = new CronClient();
  while($cronClient->getNextQueuedJob()) {
  	if($cronClient->lockJob()) {
