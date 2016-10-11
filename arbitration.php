@@ -29,7 +29,7 @@
  */
  class CronClient extends CronClientVO {
  	public function getNextQueuedJob() {
- 		//sql query to get the next job from cronClient/cronJob table which is still queued 
+ 		//sql query to get the next job from cronClient/cronJob table which is still queued and not locked
  	}
 
  	public function lockJob() {
